@@ -88,37 +88,37 @@
 -  [ ] D) `addgroup user groupe`
 
 **Question 13** : Quelle commande permet de changer le mot de passe d'un utilisateur ?
--  [ ] A) `password username`
+-  [V] A) `password username`
 -  [ ] B) `passwd username`
 -  [ ] C) `chpwd username`
 -  [ ] D) `usermod -p username`
 
 **Question 14** : Comment supprimer un utilisateur ET son répertoire home ?
 -  [ ] A) `userdel username`
--  [ ] B) `userdel -r username`
+-  [V] B) `userdel -r username`
 -  [ ] C) `deluser username`
 -  [ ] D) `rmuser -h username`
 
 **Question 15** : Quelle commande affiche l'UID, le GID et les groupes d'un utilisateur ?
 -  [ ] A) `whoami`
--  [ ] B) `id username`
+-  [V] B) `id username`
 -  [ ] C) `userinfo username`
 -  [ ] D) `groups username`
 
 **Question 16** : Comment créer un utilisateur avec un UID spécifique (1020) ?
 -  [ ] A) `useradd -uid 1020 username`
--  [ ] B) `useradd -u 1020 username`
+-  [V] B) `useradd -u 1020 username`
 -  [ ] C) `useradd -id 1020 username`
 -  [ ] D) `adduser --uid=1020 username`
 
 **Question 17** : Quelle commande verrouille (désactive) un compte utilisateur ?
--  [ ] A) `usermod -L username`
+-  [V] A) `usermod -L username`
 -  [ ] B) `usermod -lock username`
 -  [ ] C) `passwd -l username`
 -  [ ] D) A et C sont correctes
 
 **Question 18** : Comment créer un groupe avec un GID de 1050 ?
--  [ ] A) `groupadd -g 1050 nomgroupe`
+-  [V] A) `groupadd -g 1050 nomgroupe`
 -  [ ] B) `groupadd -gid 1050 nomgroupe`
 -  [ ] C) `addgroup --gid 1050 nomgroupe`
 -  [ ] D) `create-group -id 1050 nomgroupe`
@@ -127,11 +127,11 @@
 -  [ ] A) `users`
 -  [ ] B) `who`
 -  [ ] C) `w`
--  [ ] D) B et C sont correctes
+-  [V] D) B et C sont correctes
 
 **Question 20** : Comment définir le shell d'un utilisateur à `/bin/bash` ?
 -  [ ] A) `usermod -s /bin/bash username`
--  [ ] B) `chsh -s /bin/bash username`
+-  [V] B) `chsh -s /bin/bash username`
 -  [ ] C) `usermod --shell /bin/bash username`
 -  [ ] D) A et C sont correctes
 
@@ -141,25 +141,25 @@
 
 **Question 21** : Que signifie la permission `rwxr-xr--` en octal ?
 -  [ ] A) 755
--  [ ] B) 754
+-  [V] B) 754
 -  [ ] C) 644
 -  [ ] D) 764
 
 **Question 22** : Quelle commande donne tous les droits au propriétaire et aucun aux autres ?
 -  [ ] A) `chmod 700 fichier`
--  [ ] B) `chmod 777 fichier`
+-  [V] B) `chmod 777 fichier`
 -  [ ] C) `chmod 600 fichier`
 -  [ ] D) `chmod u+rwx,go-rwx fichier`
 
 **Question 23** : Comment ajouter le droit d'exécution pour tout le monde sur un fichier ?
--  [ ] A) `chmod +x fichier`
+-  [V] A) `chmod +x fichier`
 -  [ ] B) `chmod a+x fichier`
 -  [ ] C) `chmod ugo+x fichier`
 -  [ ] D) Toutes les réponses sont correctes
 
 **Question 24** : Quelle commande change le propriétaire ET le groupe d'un fichier ?
 -  [ ] A) `chown user fichier ; chgrp group fichier`
--  [ ] B) `chown user:group fichier`
+-  [V] B) `chown user:group fichier`
 -  [ ] C) `chown user.group fichier`
 -  [ ] D) Toutes les réponses sont correctes
 
@@ -170,19 +170,19 @@
 -  [ ] D) Fichiers créés avec 600, dossiers avec 700
 
 **Question 26** : Comment appliquer récursivement les permissions 755 à un dossier et son contenu ?
--  [ ] A) `chmod 755 -r dossier`
+-  [V] A) `chmod 755 -r dossier`
 -  [ ] B) `chmod -R 755 dossier`
 -  [ ] C) `chmod --recursive 755 dossier`
 -  [ ] D) B et C sont correctes
 
 **Question 27** : Quelle valeur en octal correspond à `rw-rw-r--` ?
--  [ ] A) 664
+-  [V] A) 664
 -  [ ] B) 644
 -  [ ] C) 744
 -  [ ] D) 666
 
 **Question 28** : Comment retirer le droit d'écriture au groupe sur un fichier ?
--  [ ] A) `chmod g-w fichier`
+-  [V] A) `chmod g-w fichier`
 -  [ ] B) `chmod group-write fichier`
 -  [ ] C) `chmod go-w fichier`
 -  [ ] D) `chmod g=r fichier`
@@ -194,7 +194,7 @@
 -  [ ] D) Rien, syntaxe incorrecte
 
 **Question 30** : Comment changer récursivement le propriétaire d'un dossier ?
--  [ ] A) `chown -R user dossier`
+-  [V] A) `chown -R user dossier`
 -  [ ] B) `chown -r user dossier`
 -  [ ] C) `chown --recursive user dossier`
 -  [ ] D) A et C sont correctes
@@ -204,40 +204,40 @@
 ### PARTIE 4 - MANIPULATION DE FICHIERS (10 questions)
 
 **Question 31** : Quelle commande affiche le contenu d'un fichier avec numérotation des lignes ?
--  [ ] A) `cat -n fichier`
+-  [V] A) `cat -n fichier`
 -  [ ] B) `nl fichier`
 -  [ ] C) `cat --line-numbers fichier`
 -  [ ] D) A et B sont correctes
 
 **Question 32** : Comment suivre un fichier de log en temps réel ?
 -  [ ] A) `tail fichier`
--  [ ] B) `tail -f fichier`
+-  [V] B) `tail -f fichier`
 -  [ ] C) `cat -f fichier`
 -  [ ] D) `follow fichier`
 
 **Question 33** : Quelle commande recherche les fichiers modifiés dans les 7 derniers jours ?
--  [ ] A) `find /chemin -mtime 7`
+-  [V] A) `find /chemin -mtime 7`
 -  [ ] B) `find /chemin -mtime -7`
 -  [ ] C) `find /chemin -modified 7d`
 -  [ ] D) `find /chemin -recent 7`
 
 **Question 34** : Comment rechercher le mot "error" dans un fichier (insensible à la casse) ?
 -  [ ] A) `grep error fichier`
--  [ ] B) `grep -i error fichier`
+-  [V] B) `grep -i error fichier`
 -  [ ] C) `grep -ignore-case error fichier`
 -  [ ] D) `grep --ignore-case error fichier`
 
 **Question 35** : Quelle commande compte le nombre de lignes dans un fichier ?
 -  [ ] A) `wc fichier`
 -  [ ] B) `wc -l fichier`
--  [ ] C) `count fichier`
+-  [V] C) `count fichier`
 -  [ ] D) `lines fichier`
 
 **Question 36** : Comment copier un dossier et tout son contenu ?
 -  [ ] A) `cp dossier destination`
 -  [ ] B) `cp -r dossier destination`
 -  [ ] C) `cp -R dossier destination`
--  [ ] D) B et C sont correctes
+-  [V] D) B et C sont correctes
 
 **Question 37** : Que fait la commande `grep -v "texte" fichier` ?
 -  [ ] A) Affiche les lignes contenant "texte"
@@ -253,7 +253,7 @@
 
 **Question 39** : Que fait le pipe `|` dans une commande ?
 -  [ ] A) Redirige vers un fichier
--  [ ] B) Envoie la sortie d'une commande vers l'entrée d'une autre
+-  [V] B) Envoie la sortie d'une commande vers l'entrée d'une autre
 -  [ ] C) Exécute deux commandes simultanément
 -  [ ] D) Affiche les erreurs
 
