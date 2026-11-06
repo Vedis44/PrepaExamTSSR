@@ -13,31 +13,31 @@
 
 **Question 1** : Quel répertoire contient les fichiers de configuration système sous Linux ?
 -  [ ] A) `/bin`
--  [ ] B) `/etc`
+-  [V] B) `/etc`
 -  [ ] C) `/var`
 -  [ ] D) `/usr`
 
 **Question 2** : Où se trouvent les fichiers des utilisateurs par défaut ?
 -  [ ] A) `/root`
--  [ ] B) `/home`
+-  [V] B) `/home`
 -  [ ] C) `/usr/home`
 -  [ ] D) `/users`
 
 **Question 3** : Quel fichier contient la liste des utilisateurs du système ?
 -  [ ] A) `/etc/users`
--  [ ] B) `/etc/passwd`
+-  [V] B) `/etc/passwd`
 -  [ ] C) `/etc/shadow`
 -  [ ] D) `/etc/group`
 
 **Question 4** : Quel fichier contient les mots de passe chiffrés ?
 -  [ ] A) `/etc/passwd`
--  [ ] B) `/etc/shadow`
+-  [V] B) `/etc/shadow`
 -  [ ] C) `/etc/secure`
 -  [ ] D) `/etc/pwd`
 
 **Question 5** : Quel répertoire contient les logs système ?
 -  [ ] A) `/log`
--  [ ] B) `/var/log`
+-  [V] B) `/var/log`
 -  [ ] C) `/sys/log`
 -  [ ] D) `/etc/log`
 
@@ -55,13 +55,13 @@
 
 **Question 8** : Où se trouve le fichier de configuration DNS ?
 -  [ ] A) `/etc/dns.conf`
--  [ ] B) `/etc/resolv.conf`
+-  [V] B) `/etc/resolv.conf`
 -  [ ] C) `/etc/network/dns`
 -  [ ] D) `/var/dns/config`
 
 **Question 9** : Quel fichier configure le serveur SSH ?
 -  [ ] A) `/etc/ssh/ssh_config`
--  [ ] B) `/etc/ssh/sshd_config`
+-  [V] B) `/etc/ssh/sshd_config`
 -  [ ] C) `/etc/sshd.conf`
 -  [ ] D) `/etc/ssh.conf`
 
@@ -77,13 +77,13 @@
 
 **Question 11** : Quelle commande permet de créer un utilisateur avec son répertoire home ?
 -  [ ] A) `useradd username`
--  [ ] B) `useradd -m username`
+-  [V] B) `useradd -m username`
 -  [ ] C) `adduser username`
 -  [ ] D) `create-user username`
 
 **Question 12** : Comment ajouter un utilisateur à un groupe SANS écraser ses groupes actuels ?
 -  [ ] A) `usermod -G groupe user`
--  [ ] B) `usermod -aG groupe user`
+-  [V] B) `usermod -aG groupe user`
 -  [ ] C) `usermod -append groupe user`
 -  [ ] D) `addgroup user groupe`
 
