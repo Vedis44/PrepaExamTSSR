@@ -259,7 +259,7 @@
 
 **Question 40** : Comment rechercher tous les fichiers .conf dans /etc ?
 -  [ ] A) `find /etc -name ".conf"`
--  [ ] B) `find /etc -name "*.conf"`
+-  [V] B) `find /etc -name "*.conf"`
 -  [ ] C) `locate /etc/*.conf`
 -  [ ] D) `search /etc .conf`
 
@@ -270,53 +270,53 @@
 **Question 41** : Quelle commande affiche la configuration réseau des interfaces ?
 -  [ ] A) `ifconfig`
 -  [ ] B) `ip addr show`
--  [ ] C) `ip a`
+-  [V] C) `ip a`
 -  [ ] D) Toutes les réponses sont correctes
 
 **Question 42** : Comment afficher la table de routage ?
 -  [ ] A) `route -n`
--  [ ] B) `ip route show`
+-  [V] B) `ip route show`
 -  [ ] C) `netstat -r`
 -  [ ] D) Toutes les réponses sont correctes
 
 **Question 43** : Quelle commande teste la connectivité réseau vers une IP ?
--  [ ] A) `ping IP`
+-  [V] A) `ping IP`
 -  [ ] B) `test-connection IP`
 -  [ ] C) `check IP`
 -  [ ] D) `nettest IP`
 
 **Question 44** : Comment afficher les ports en écoute avec netstat ?
--  [ ] A) `netstat -tuln`
+-  [V] A) `netstat -tuln`
 -  [ ] B) `netstat -a`
 -  [ ] C) `netstat -listening`
 -  [ ] D) `netstat -ports`
 
 **Question 45** : Quelle est l'alternative moderne à netstat ?
--  [ ] A) `ss`
+-  [V] A) `ss`
 -  [ ] B) `netcat`
 -  [ ] C) `nstat`
 -  [ ] D) `ipstat`
 
 **Question 46** : Comment faire une résolution DNS avec dig ?
 -  [ ] A) `dig domain.com`
--  [ ] B) `dig -query domain.com`
+-  [V] B) `dig -query domain.com`
 -  [ ] C) `resolve domain.com`
 -  [ ] D) `dns-lookup domain.com`
 
 **Question 47** : Sur Debian, quel fichier configure les interfaces réseau ?
 -  [ ] A) `/etc/network/config`
--  [ ] B) `/etc/network/interfaces`
+-  [V] B) `/etc/network/interfaces`
 -  [ ] C) `/etc/interfaces`
 -  [ ] D) `/etc/netplan/config.yaml`
 
 **Question 48** : Comment activer une interface réseau ?
 -  [ ] A) `ifup eth0`
--  [ ] B) `ip link set eth0 up`
+-  [V] B) `ip link set eth0 up`
 -  [ ] C) `ifconfig eth0 up`
 -  [ ] D) Toutes les réponses sont correctes
 
 **Question 49** : Quelle commande trace la route des paquets vers une destination ?
--  [ ] A) `traceroute destination`
+-  [V] A) `traceroute destination`
 -  [ ] B) `tracepath destination`
 -  [ ] C) `route-trace destination`
 -  [ ] D) A et B sont correctes
@@ -325,6 +325,6 @@
 -  [ ] A) `hostname nouveau-nom`
 -  [ ] B) `hostnamectl set-hostname nouveau-nom`
 -  [ ] C) Modifier `/etc/hostname`
--  [ ] D) B et C sont correctes
+-  [V] D) B et C sont correctes
 
 ---
